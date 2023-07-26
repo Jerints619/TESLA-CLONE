@@ -1,0 +1,206 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+html,body{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#divmain{
+
+    width: 100%;
+    height: 100%;
+    background-image: url(wp5103623.jpg);
+    background-size: cover;
+
+}
+
+
+#divside{
+    
+    width: 15%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275)10s;
+
+}
+
+
+
+
+
+
+
+.divfont{
+
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+#divtop2{
+
+    display: flex;
+    justify-content:space-between;
+
+}
+
+
+#divmid2{
+    
+    width: 40%;
+    height: 50%;
+    
+     
+  
+}
+
+#divmid{
+
+    width: 90%;
+    height: 20%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    
+}
+
+#midfont1{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-size: 50px;
+    
+    
+
+}
+
+#midfont2{
+
+    font-style: italic;
+    font-size: 20px;
+    
+}
+
+
+#divbottom{
+
+    width: 96%;
+    height: 60px;
+    position: absolute;
+    bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#bottommid{
+
+    width: 60%;
+    height: 20%;
+    background-color: #eeeeee;
+    margin-left: 200px;
+}
+
+#bottommid2{
+
+    width: 20%;
+    height: 98%;
+    background-color: #e90909;
+    
+
+}
+
+#midbottombar{
+
+    
+    width: 70%;
+    height: 60% ;
+    margin-left: 10%;
+    position: absolute;
+    bottom: 5%;
+
+}
+
+
+
+
+#bottommidside{
+
+     background-color: #000000;
+     color: #eeeeee;
+     width: 10%;
+     height: 40px;
+     position: absolute;
+     left: 90%;
+     top: 20%;
+     cursor:pointer;
+     border-radius: 10px;
+
+
+}
+
+#bottomleft{
+
+   margin-left: 10px;
+   margin-top: 20px;
+
+
+}
+
+#icon{
+   width: 100px;
+   height: 30px;
+   color: rgb(238, 161, 19);
+   font-size: 20px;
+   display: flex;
+   justify-content: space-around;
+}
+
+h1 , p:hover{
+
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1)5s;
+    color: #e15e13;
+    margin-right: 50px;
+
+
+}
+
+h4:hover{
+
+    
+    color: #11f39c;
+    transition:cubic-bezier(0.175, 0.885, 0.32, 1.275)10s;
+    cursor: pointer;
+}
+
+h4 {
+
+    color:white;
+    transition: cubic-bezier(0.23, 1, 0.320, 1)3s;
+}
+
+h1 {
+   
+    color:rgb(170, 208, 4);
+    transition: cubic-bezier(0.23, 1, 0.320, 1)5s;
+     
+
+
+
+}
+
+p{
+    color: rgb(251, 251, 251);
+    transition: cubic-bezier(0.23, 1, 0.320, 1)5s;
+    
+}
